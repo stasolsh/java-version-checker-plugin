@@ -14,6 +14,6 @@ public class JavaVersionCheckerMojo extends AbstractMojo {
     @Override
     public void execute() throws MojoExecutionException {
         String javaVersion = System.getProperty("java.version");
-        getLog().info("Java Version on this machine: " + javaVersion);
+        getLog().info("Java Version on this machine : " + javaVersion);
     }
 }
