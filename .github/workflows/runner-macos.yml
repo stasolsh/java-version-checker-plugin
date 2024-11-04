@@ -1,5 +1,4 @@
 name: macOS Workflow Example
-
 on:
   push:
     branches:
