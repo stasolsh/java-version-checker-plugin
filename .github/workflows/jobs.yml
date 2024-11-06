@@ -1,0 +1,15 @@
+name: "Dep jbs example"
+
+on: ['push']
+
+jobs:
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: stepA
+        run: echo "World"
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: stepB
+        run: echo "Hello"
